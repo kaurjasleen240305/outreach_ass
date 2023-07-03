@@ -1,0 +1,58 @@
+.fourth{
+    width:100%;
+    margin-bottom:70px;
+    display: flex;
+    justify-content: space-around;
+}
+.ftext{
+    padding-top:70px;
+    padding-bottom: 70px;
+}
+@media only screen and (max-width: 690px){
+    .orange{
+       font-size:1em;
+    }
+    .bold{
+        font-size:1.5em;
+    }
+    .normal{
+        font-size:0.8em;
+    }
+}
+@media only screen and (max-width:570px){
+    .orange{
+        font-size:0.8em;
+     }
+     .bold{
+         font-size:1em;
+     }
+     .normal{
+         font-size:0.8em;
+     }
+}
+@media only screen and (max-width:550px){
+    .fourth{
+        margin-top: 600px;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-around;
+        margin-top: 0px;
+    }
+    
+    .p2{
+        width:90%;
+        height:520px;
+    }
+    
+    .orange{
+        font-size:1.5em;
+     }
+     .bold{
+         font-size:1.5em;
+     }
+     .normal{
+         font-size:1em;
+     }
+}
+
+

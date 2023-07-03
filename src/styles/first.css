@@ -1,0 +1,45 @@
+.navbar{
+    display:flex;
+     justify-content: space-between;
+     padding-bottom: 50px;
+     width:100vw;
+}
+.navlist{
+    display:flex;
+    list-style-type: none;
+    align-items:center;  
+}
+.navbar img{
+    padding-left:5vw ;
+    padding-top:50px ;
+
+}
+.navlist li{
+    padding-left:3vw;
+    padding-top:50px;
+    padding-right:3vw;
+}
+.navlist li a{
+    text-decoration: none;
+    color:black;
+    font-weight: 600;
+    cursor: pointer;
+}
+.navlist li a:hover{
+     color:orangered;
+}
+.horse{
+    display:none;
+}
+@media only screen and (max-width:550px){
+   .navlist{
+     display:none;
+   }
+   .horse{
+      display: block;
+      height:50px;
+      width:50px;
+      margin-top:30px;
+      margin-right: 20px;
+   }
+}

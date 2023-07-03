@@ -1,0 +1,147 @@
+.food{
+    width:100vw;
+    height:600px;
+    position:absolute;
+    z-index:-1;
+}
+.second{
+    width:100vw;
+}
+.text{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top:40px;
+    color:white;
+}
+.text p{
+    margin:0px;
+}
+.text .one{
+     font-size:x-large;
+     font-weight: 700;
+}
+.text .two{
+    font-size:3em;
+     font-weight: 700;
+}
+.three{
+    font-size:x-large;
+}
+.text .buttons{
+    padding-top:200px;
+    width:100%;
+    display: flex;
+    justify-content: space-around;
+
+}
+.text button{
+    background: none;
+    width:150px;
+    height:50px;
+    color:white;
+    border: 2px solid white;
+    border-radius: 30px;
+    font-size: 1.2em;
+    font-weight: 600;
+}
+.text button:hover{
+   background-color: orangered;
+   border:none;
+}
+.phones{
+    position:absolute;
+    z-index:4;
+    margin-top:-150px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width:100vw;
+}
+.iphone{
+    margin-top:-5px;
+    width:80%;
+    height:900px;
+}
+.buttons{
+    position: relative;
+    z-index: 8;
+}
+.ruler{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    height:0px;
+    width:70%;
+    z-index:8;
+    border:1px solid lightgray;
+}
+.ptext{
+    font-size: 2.5em;
+    font-weight: bold;
+}
+@media only screen and (max-width: 734px){
+    .text .two{
+        font-size:2em;
+         font-weight: 700;
+    }
+    .three{
+       padding-top:40px;
+    }
+    .text .buttons{
+        padding-top:100px;
+    }
+}
+@media only screen and (max-width:550px){
+    .food{
+        display: none;
+    }
+    .buttons{
+        flex-direction: column;
+        align-items: center;
+       
+    }
+    .text button{
+        border:2px solid orangered;
+        color:orangered;
+    }
+    button:hover{
+        color:white;
+    }
+    .text{
+        color:black;
+    }
+    .three{
+        color:grey;
+    }
+     .iphone{
+        height:492px;
+        width:422px;
+        margin-top:70px;
+     }
+     .ptext{
+        font-size: 2em;
+     }
+     .text .two{
+        font-size:1.5em;
+     }
+     .three{
+        font-size:1em;
+     }
+}
+@media only screen and (max-width:420px){
+    .text .one{
+      font-size: 1.2em;
+    }
+    .text .two{
+         font-size: 1.2em;
+    }
+    .three{
+       font-size: 1em;
+    }
+    .ptext{
+        font-size:1em;
+    }
+}
+
